@@ -1,0 +1,45 @@
+@import "./css/button.css";
+
+:root {
+    --green: #0CA900;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #adadad;
+}
+
+/*conig*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.wrapper {
+    max-width: 360px;
+   /* border: 1px solid red;*/
+    margin: auto;
+    height: 100%;
+    display: flex;
+    padding: 16px;
+}
+
+/*container*/
+.container {
+    background: var(--green);
+    height: 100vh;
+}
+
+.content {
+    /*border: 1px solid blue;*/
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.container h1 {
+    text-align: center;
+    color: var(--white);
+    font-weight: 500;
+}

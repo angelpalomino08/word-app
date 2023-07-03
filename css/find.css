@@ -1,0 +1,100 @@
+@import "./css/button.css";
+
+:root {
+    --green: #0CA900;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #adadad;
+}
+
+/*conig*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.wrapper {
+    max-width: 360px;
+   /* border: 1px solid red;*/
+    margin: auto;
+    height: 100%;
+    display: flex;
+    padding: 16px;
+}
+
+/*container*/
+.container {
+    background: var(--white);
+    height: 100vh;
+}
+
+.content {
+    /*border: 1px solid blue;*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/*.container h1 {
+    text-align: center;
+    color: var(--white);
+    font-weight: 500;
+}*/
+
+/*find*/
+
+.perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border: 1px solid red;
+}
+
+    .fecha span {
+        color: var(--gray);
+        font-size: 14px;
+    }
+
+.fecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+/*SEARCH*/
+
+.search {
+    display: flex;
+align-items: center;
+align-self: stretch;
+}
+
+.lupa{
+    display: flex;
+padding: 10px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+border-radius: 0px 8px 8px 0px;
+border: 1px solid var(--verde, #0BA801);
+background: var(--verde, #0BA801);
+color: var(--white);
+}
+
+.buscador {
+    display: flex;
+padding: 10px;
+align-items: center;
+gap: 10px;
+flex: 1 0 0;
+align-self: stretch;
+border-radius: 8px 0px 0px 8px;
+border: 1px solid var(--gray);
+border-right: none;
+background: #FFF;
+}

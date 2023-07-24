@@ -1,42 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="../css/find.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
 <body>
-    <div class="container">
-        <div class="wrapper">
-            <div class="content">
-                <div class="perfil">
-                    <img src="../img/Image-60.png" alt="">
-                    <div class="fecha">
-                        <span>Mon, 08 May 2023</spa>
-                        <p>Search, Find, and Apply</p>
-                    </div>
-                    <i class="bi bi-bell"></i>
-                </div>
-                <div class="search">
-                    <input class="buscador" type="text" placeholder="Search, Find, and Apply">
-                    <div class="lupa">
-                        <i class="bi bi-search"></i>
-                    </div>
-                </div>
-                <div class="prepar-job">
-
-                </div>
-                <div class="jobs">
-
+  <div class="container">
+    <div class="wrapper">
+      <div class="content">
+        <div class="perfil__content">
+          <div class="perfil">
+            <img src="../img/Image-60.png" alt="" width="60px">
+            <div class="description">
+              <span>Mon, 08 May 2023</span>
+              <p>Search, Find, and Apply</p>
+            </div>
+            <i class="bi bi-bell"></i>
+          </div>
+          <div class="search">
+            <input type="text" placeholder="Search for job">
+            <div class="icon">
+              <i class="bi bi-search"></i>
+            </div>
+          </div>
+          <div class="preparJob">
+            <div class="prepareJob__detail">
+              <div class="prepareJob__detail__content">
+                <h2>Prepare for your job search</h2>
+                <p>Add aditional details from your profile any time.</p>
+              </div>
+              <i class="bi bi-three-dots-vertical"></i>
+            </div>
+            <div class="prepareJob__complete">
+                <div class="bar">
+                    <progress id="file" max="100" value="70">70</progress>
+                    <label for="file">2/4 complete</label>
                 </div>
             </div>
+          </div>
+          <div class="jobs">
+            <p>Browse jobs that match your experience. Ordered by most relevant.</p>
+            <div class="job">
+              <div class="job__title">
+                <img src="../img/300221.png" alt="google" width="30">
+                <div class="job__title__details">
+                  <h2>Agency Business Lead</h2>
+                  <div class="job__title__details-agencia">
+                    <i class="bi bi-buildings-fill"></i>
+                    <p>Google,Inc</p>
+                  </div>
+                </div>
+                <i class="bi bi-bookmark"></i>
+              </div>
+              <p>Businesses that partner with Google come in all shapes, sizes and market caps, and no one Google advertising solution works for all.</p>
+              <div class="job__details">
+                <div class="job__details__time">
+                  <i class="bi bi-alarm"></i>
+                  <p>4 days ago</p>
+                </div>
+                <div class="job__details__aplicants">
+                  <i class="bi bi-people"></i>
+                  <p>240 aplicants</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </body>
 </html>

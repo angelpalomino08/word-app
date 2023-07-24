@@ -1,0 +1,67 @@
+.jobs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .jobs p {
+    font-size: 12px;
+    color: var(--gray);
+  }
+  
+  .job {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 1px solid var(--gray);
+    border-radius: 16px;
+    padding: 16px;
+  }
+  
+  .job__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .job__title img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .job__title i {
+    font-size: 24px;
+  }
+  
+  .job__title__details h2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 4px;
+  }
+  
+  .job__title__details-agencia {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+  
+  .job__title__details-agencia i{
+    font-size: 12px;
+    color: var(--gray);
+  }
+  
+  .job p {
+    font-size: 12px;
+    color: var(--black);
+  }
+  
+  .job__details {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .job__details__time, .job__details__aplicants {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }

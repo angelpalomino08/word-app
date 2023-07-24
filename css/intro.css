@@ -1,0 +1,86 @@
+
+.bakc {
+    background-color: var(--green);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.descrition {
+    position: relative;
+    background-color: var(--white);
+    border-radius: 64px;
+    top: 150px;
+}
+
+/*parte superio*/
+.parte_superior {
+    border: 1px solid blue;
+    display: flex;
+    width: 313px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconos_agency_edificio {
+    display: flex;
+    width: 89px;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid red;
+}
+
+.iconos_agency_ubicacion {
+    display: flex;
+    width: 89px;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid red;
+
+}
+
+.iconos_agency {
+    display: flex;
+    border: 1px solid red;
+    align-items: flex-start;
+}
+
+.agency {
+    display: flex;
+    width: 241px;
+    align-items: center;
+    align-content: center;
+    gap: 15px 0px;
+    border: 1px solid red;
+    flex-wrap: wrap;
+
+}
+
+.descrition_inconos_libro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.descrition_inconos_dolar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.descrition_inconos {
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.preferred_agency {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+}

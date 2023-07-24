@@ -1,0 +1,58 @@
+@import './button.css';
+@import './find.css';
+@import './jobs.css';
+@import './intro.css';
+
+
+
+:root {
+  --green: #0CA900;
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #adadad;
+}
+
+/*cofig*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+/*container*/
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 360px;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+
+.content {
+  /* border: 1px solid blue; */
+  height: 100%;
+  display: flex;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  background-color: var(--green);
+  height: 100%;
+  width: 100%;
+  padding: 16px;
+}
+
+.home h1 {
+  text-align: center;
+  color: var(--white);
+  font-weight: 500;
+}
+
